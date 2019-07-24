@@ -128,6 +128,18 @@ syhthems IoT Platform 采用分模块开发，首先分为前端和后端两个�
     # 在国内可以使用阿里云的代码托管服务来下载：
     git clone https://code.aliyun.com/syhthems/syhthems-platform.git
    ```
+   
+   如果您想使用 dev 分支进行开发，请使用以下命令
+   ```bash 
+    git clone -b dev https://github.com/ehaut/syhthems-platform.git
+    # 在国内可以使用阿里云的代码托管服务来下载：
+    git clone -b dev https://code.aliyun.com/syhthems/syhthems-platform.git
+   ```
+   或者从主分支切换至 dev 分支
+   ```bash
+    cd syhthems-platform
+    git checkout dev
+   ```
 
 2. 创建平台所使用的数据库
 
